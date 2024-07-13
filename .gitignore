@@ -4,7 +4,7 @@
 .env.development.local
 .env.test.local
 .env.production.local
-
+config.env
 # Node.js
 node_modules/
 npm-debug.log
