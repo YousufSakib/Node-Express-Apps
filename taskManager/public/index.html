@@ -10,25 +10,18 @@
         <div class="wrapper">
             <div class="top">
                 <h1>Task Manager</h1>
-                <form class="newTaskForm" action="/">
+                <form class="newTaskForm" method="post" action="/api/v1/tasks">
                     <input
                         id="newTaskInput"
                         type="text"
-                        name="newTask"
+                        name="task_name"
                         placeholder="e.g. wash dishes"
+                        required
                     />
                     <input id="newTaskSubmit" type="submit" value="submit" />
                 </form>
             </div>
-            <ul class="taskList">
-                <li class="listItem">
-                    <span class="left">Walk The Dog</span>
-                    <div class="right">
-                        <img src="icons/edit.png" alt="" />
-                        <img src="icons/delete.png" alt="" />
-                    </div>
-                </li>
-            </ul>
+            <ul class="taskList"></ul>
             <div class="editTask">
                 <div class="card">
                     <h2>Edit Task</h2>
@@ -39,7 +32,7 @@
                             <label for="isCompleted">Completed</label>
                         </div>
                         <div class="right">
-                            <span>60a72skk396lk4ksfke</span>
+                            <span></span>
                             <input
                                 type="text"
                                 name="taskNameEdit"
@@ -49,14 +42,18 @@
                                 type="checkbox"
                                 name="isCompleted"
                                 id="isCompleted"
+                                value="completed"
                             />
                         </div>
+                        <input
+                            type="submit"
+                            class="backToTask"
+                            value="Back to task"
+                        />
                     </form>
-                </div>
-                <div class="backToTask">
-                    <span>Back to task</span>
                 </div>
             </div>
         </div>
     </body>
+    <script src="./index.js"></script>
 </html>

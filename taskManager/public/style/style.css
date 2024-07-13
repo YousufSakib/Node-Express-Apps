@@ -49,10 +49,15 @@ ul.taskList li.listItem {
     -webkit-box-shadow: 1px 1px 17px 0px rgba(140, 140, 140, 0.87);
     -moz-box-shadow: 1px 1px 17px 0px rgba(140, 140, 140, 0.87);
     box-shadow: 1px 1px 17px 0px rgba(140, 140, 140, 0.87);
+    padding: 0 10px;
+    margin: 10px 0;
 }
 ul.taskList li.listItem span {
     padding: 10px;
     /* text-decoration: line-through; */
+}
+ul.taskList li.listItem.true span {
+    text-decoration: line-through;
 }
 ul.taskList li.listItem div.right {
     display: flex;
@@ -88,13 +93,15 @@ div.right img:hover {
     -moz-box-shadow: 1px 1px 28px 5px rgba(140, 140, 140, 0.82);
     box-shadow: 1px 1px 28px 5px rgba(140, 140, 140, 0.82);
 }
-.editTask .backToTask {
+.editTaskForm .backToTask {
     background-color: rgb(34, 34, 34);
     width: 150px;
     padding: 5px 10px;
     color: white;
     margin: 10vh auto 0 auto;
     cursor: pointer;
+    position: absolute;
+    margin-top: 150px;
 }
 .editTask .card h2 {
     text-align: center;
