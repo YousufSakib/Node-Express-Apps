@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Task Manager</title>
+        <link rel="stylesheet" href="style/style.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="top">
+                <h1>Task Manager</h1>
+                <form class="newTaskForm" action="/">
+                    <input
+                        id="newTaskInput"
+                        type="text"
+                        name="newTask"
+                        placeholder="e.g. wash dishes"
+                    />
+                    <input id="newTaskSubmit" type="submit" value="submit" />
+                </form>
+            </div>
+            <ul class="taskList">
+                <li class="listItem">
+                    <span class="left">Walk The Dog</span>
+                    <div class="right">
+                        <img src="icons/edit.png" alt="" />
+                        <img src="icons/delete.png" alt="" />
+                    </div>
+                </li>
+            </ul>
+            <div class="editTask">
+                <div class="card">
+                    <h2>Edit Task</h2>
+                    <form class="editTaskForm" action="">
+                        <div class="left">
+                            <span>Task ID</span>
+                            <label for="taskNameEdit">Name</label>
+                            <label for="isCompleted">Completed</label>
+                        </div>
+                        <div class="right">
+                            <span>60a72skk396lk4ksfke</span>
+                            <input
+                                type="text"
+                                name="taskNameEdit"
+                                id="taskNameEdit"
+                            />
+                            <input
+                                type="checkbox"
+                                name="isCompleted"
+                                id="isCompleted"
+                            />
+                        </div>
+                    </form>
+                </div>
+                <div class="backToTask">
+                    <span>Back to task</span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

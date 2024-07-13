@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    margin-top: 10vh;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top {
+    background-color: white;
+    width: 50vw;
+    min-width: 400px;
+    -webkit-box-shadow: 1px 1px 28px 5px rgba(140, 140, 140, 0.82);
+    -moz-box-shadow: 1px 1px 28px 5px rgba(140, 140, 140, 0.82);
+    box-shadow: 1px 1px 28px 5px rgba(140, 140, 140, 0.82);
+    padding: 50px;
+}
+.top h1 {
+    text-align: center;
+}
+.wrapper .top .newTaskForm {
+    display: flex;
+}
+#newTaskInput {
+    flex-grow: 1;
+    padding-left: 10px;
+}
+#newTaskSubmit {
+    flex-grow: 1;
+    max-width: 100px;
+    padding: 10px;
+}
+ul.taskList {
+    background-color: white;
+    width: 50vw;
+    min-width: 400px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 5vh;
+}
+ul.taskList li.listItem {
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow: 1px 1px 17px 0px rgba(140, 140, 140, 0.87);
+    -moz-box-shadow: 1px 1px 17px 0px rgba(140, 140, 140, 0.87);
+    box-shadow: 1px 1px 17px 0px rgba(140, 140, 140, 0.87);
+}
+ul.taskList li.listItem span {
+    padding: 10px;
+    /* text-decoration: line-through; */
+}
+ul.taskList li.listItem div.right {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+ul.taskList li.listItem div.right img {
+    padding: 5px;
+}
+div.right img:hover {
+    cursor: pointer;
+    background-color: rgb(219, 219, 219);
+}
+
+.editTask {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.editTask .card {
+    background-color: white;
+    width: 50vw;
+    padding: 20px;
+    max-width: 500px;
+    margin: 10vh auto 0 auto;
+    -webkit-box-shadow: 1px 1px 28px 5px rgba(140, 140, 140, 0.82);
+    -moz-box-shadow: 1px 1px 28px 5px rgba(140, 140, 140, 0.82);
+    box-shadow: 1px 1px 28px 5px rgba(140, 140, 140, 0.82);
+}
+.editTask .backToTask {
+    background-color: rgb(34, 34, 34);
+    width: 150px;
+    padding: 5px 10px;
+    color: white;
+    margin: 10vh auto 0 auto;
+    cursor: pointer;
+}
+.editTask .card h2 {
+    text-align: center;
+}
+.editTask .card .editTaskForm {
+    display: flex;
+    justify-content: space-around;
+}
+.editTask .card .editTaskForm .left,
+.editTask .card .editTaskForm .right {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    flex-grow: 1;
+}
+.editTask .card .editTaskForm .right input#isCompleted {
+    margin: 0;
+    padding: 0;
+}
+.editTask .card .editTaskForm .right input#taskNameEdit {
+    padding-left: 5px;
+}
