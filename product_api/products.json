@@ -1,0 +1,422 @@
+[
+    {
+        "name": "Eames Lounge Chair",
+        "price": 1200,
+        "company": "Furniture World",
+        "rating": 5
+    },
+    {
+        "name": "Sony PlayStation 5",
+        "price": 499,
+        "company": "Tech Innovators",
+        "rating": 4.5
+    },
+    {
+        "name": "Samsung Galaxy S21 Ultra",
+        "price": 1199,
+        "company": "Apple Inc.",
+        "rating": 3
+    },
+    {
+        "name": "Apple MacBook Pro",
+        "price": 1999,
+        "company": "Sports Unlimited",
+        "rating": 3
+    },
+    {
+        "name": "Canon EOS R5",
+        "price": 3899,
+        "company": "Audio Bliss",
+        "rating": 3.5
+    },
+    {
+        "name": "Dyson V11 Vacuum Cleaner",
+        "price": 599,
+        "company": "Kitchen Delights",
+        "rating": 5
+    },
+    {
+        "name": "KitchenAid Stand Mixer",
+        "price": 399,
+        "company": "Game Masters",
+        "rating": 3
+    },
+    {
+        "name": "Nike Air Zoom Pegasus 38",
+        "price": 120,
+        "company": "Audio Apple",
+        "rating": 3.5
+    },
+    {
+        "name": "Samsung QLED Q90T TV",
+        "price": 1799,
+        "company": "Tech Galaxy",
+        "rating": 4.5
+    },
+    {
+        "name": "Bose Noise Cancelling Headphones 700",
+        "price": 379,
+        "company": "Camera World",
+        "rating": 3
+    },
+    {
+        "name": "Weber Genesis II E-310 Grill",
+        "price": 799,
+        "company": "Furniture World",
+        "rating": 3
+    },
+    {
+        "name": "Patagonia Nano Puff Jacket",
+        "price": 199,
+        "company": "Tech Innovators",
+        "rating": 4.5
+    },
+    {
+        "name": "Roomba i7+ Robot Vacuum",
+        "price": 799,
+        "company": "Apple Inc.",
+        "rating": 4
+    },
+    {
+        "name": "Microsoft Surface Laptop 4",
+        "price": 1299,
+        "company": "Sports Unlimited",
+        "rating": 3
+    },
+    {
+        "name": "LG OLED CX Series TV",
+        "price": 2499,
+        "company": "Audio Bliss",
+        "rating": 3.5
+    },
+    {
+        "name": "Le Creuset Dutch Oven",
+        "price": 379,
+        "company": "Kitchen Delights",
+        "rating": 4.5
+    },
+    {
+        "name": "Fitbit Charge 4",
+        "price": 149,
+        "company": "Game Masters",
+        "rating": 3.5
+    },
+    {
+        "name": "Sonos Arc Soundbar",
+        "price": 799,
+        "company": "Audio Apple",
+        "rating": 3
+    },
+    {
+        "name": "Nintendo Switch",
+        "price": 299,
+        "company": "Tech Galaxy",
+        "rating": 4.5
+    },
+    {
+        "name": "Keurig K-Elite Coffee Maker",
+        "price": 169,
+        "company": "Camera World",
+        "rating": 3.5
+    },
+    {
+        "name": "Sony WH-1000XM4 Wireless Headphones",
+        "price": 349,
+        "company": "Furniture World",
+        "rating": 4
+    },
+    {
+        "name": "Patagonia Black Hole Backpack",
+        "price": 129,
+        "company": "Tech Innovators",
+        "rating": 3
+    },
+    {
+        "name": "LG UltraGear 27GN950-B Gaming Monitor",
+        "price": 899,
+        "company": "Apple Inc.",
+        "rating": 3.5
+    },
+    {
+        "name": "Amazon Echo Show 10",
+        "price": 249,
+        "company": "Sports Unlimited",
+        "rating": 3
+    },
+    {
+        "name": "Philips Sonicare DiamondClean Toothbrush",
+        "price": 199,
+        "company": "Audio Bliss",
+        "rating": 3
+    },
+    {
+        "name": "Breville Barista Express Espresso Machine",
+        "price": 699,
+        "company": "Kitchen Delights",
+        "rating": 3.5
+    },
+    {
+        "name": "Canon EOS Rebel T8i DSLR Camera",
+        "price": 749,
+        "company": "Game Masters",
+        "rating": 3
+    },
+    {
+        "name": "Apple AirPods Pro",
+        "price": 249,
+        "company": "Audio Apple",
+        "rating": 5
+    },
+    {
+        "name": "Samsung Galaxy Tab S7+",
+        "price": 849,
+        "company": "Tech Galaxy",
+        "rating": 3
+    },
+    {
+        "name": "Instant Pot Duo Nova Pressure Cooker",
+        "price": 99,
+        "company": "Camera World",
+        "rating": 3
+    },
+    {
+        "name": "LG CX OLED TV",
+        "price": 2299,
+        "company": "Furniture World",
+        "rating": 4
+    },
+    {
+        "name": "Fujifilm X-T4 Mirrorless Camera",
+        "price": 1699,
+        "company": "Tech Innovators",
+        "rating": 4.5
+    },
+    {
+        "name": "Nike Air Force 1",
+        "price": 90,
+        "company": "Apple Inc.",
+        "rating": 4
+    },
+    {
+        "name": "Dyson Supersonic Hair Dryer",
+        "price": 399,
+        "company": "Sports Unlimited",
+        "rating": 3
+    },
+    {
+        "name": "Apple iPad Pro",
+        "price": 799,
+        "company": "Audio Bliss",
+        "rating": 4.5
+    },
+    {
+        "name": "Sony A7 III Mirrorless Camera",
+        "price": 1999,
+        "company": "Kitchen Delights",
+        "rating": 5
+    },
+    {
+        "name": "Nintendo Switch Lite",
+        "price": 199,
+        "company": "Game Masters",
+        "rating": 4
+    },
+    {
+        "name": "Samsung The Frame TV",
+        "price": 1199,
+        "company": "Audio Apple",
+        "rating": 4.5
+    },
+    {
+        "name": "JBL Flip 5 Bluetooth Speaker",
+        "price": 119,
+        "company": "Tech Galaxy",
+        "rating": 4
+    },
+    {
+        "name": "Yeti Tundra 45 Cooler",
+        "price": 299,
+        "company": "Camera World",
+        "rating": 2
+    },
+    {
+        "name": "Garmin Forerunner 945",
+        "price": 599,
+        "company": "Furniture World",
+        "rating": 4
+    },
+    {
+        "name": "LG Velvet 5G Smartphone",
+        "price": 699,
+        "company": "Tech Innovators",
+        "rating": 5
+    },
+    {
+        "name": "Samsung HW-Q950T Soundbar",
+        "price": 1799,
+        "company": "Apple Inc.",
+        "rating": 2
+    },
+    {
+        "name": "Bose SoundLink Revolve+ Bluetooth Speaker",
+        "price": 299,
+        "company": "Sports Unlimited",
+        "rating": 4.5
+    },
+    {
+        "name": "Apple Watch Series 6",
+        "price": 399,
+        "company": "Audio Bliss",
+        "rating": 4
+    },
+    {
+        "name": "GoPro HERO9 Black",
+        "price": 449,
+        "company": "Kitchen Delights",
+        "rating": 2
+    },
+    {
+        "name": "Vitamix Explorian Blender",
+        "price": 349,
+        "company": "Game Masters",
+        "rating": 4
+    },
+    {
+        "name": "Samsung Odyssey G7 Gaming Monitor",
+        "price": 799,
+        "company": "Audio Apple",
+        "rating": 5
+    },
+    {
+        "name": "Philips Hue White and Color Ambiance Starter Kit",
+        "price": 199,
+        "company": "Tech Galaxy",
+        "rating": 2
+    },
+    {
+        "name": "Nikon Z6 Mirrorless Camera",
+        "price": 1999,
+        "company": "Camera World",
+        "rating": 4.5
+    },
+    {
+        "name": "Apple iPhone 12 Pro Max",
+        "price": 1099,
+        "company": "Furniture World",
+        "rating": 4
+    },
+    {
+        "name": "Microsoft Xbox Series X",
+        "price": 499,
+        "company": "Tech Innovators",
+        "rating": 2
+    },
+    {
+        "name": "Dyson Pure Cool TP04 Air Purifier",
+        "price": 549,
+        "company": "Apple Inc.",
+        "rating": 4
+    },
+    {
+        "name": "LG CX 48 inch OLED TV",
+        "price": 1499,
+        "company": "Sports Unlimited",
+        "rating": 5
+    },
+    {
+        "name": "Bose QuietComfort 35 II Wireless Headphones",
+        "price": 299,
+        "company": "Audio Bliss",
+        "rating": 2.5
+    },
+    {
+        "name": "Google Pixel 5",
+        "price": 699,
+        "company": "Kitchen Delights",
+        "rating": 5
+    },
+    {
+        "name": "Fitbit Versa 3",
+        "price": 229,
+        "company": "Game Masters",
+        "rating": 4
+    },
+    {
+        "name": "Sony X900H Series TV",
+        "price": 1399,
+        "company": "Audio Apple",
+        "rating": 4
+    },
+    {
+        "name": "Amazon Kindle Paperwhite",
+        "price": 129,
+        "company": "Tech Galaxy",
+        "rating": 4
+    },
+    {
+        "name": "DJI Mavic Air 2 Drone",
+        "price": 799,
+        "company": "Camera World",
+        "rating": 5
+    },
+    {
+        "name": "Logitech MX Master 3 Wireless Mouse",
+        "price": 99,
+        "company": "Furniture World",
+        "rating": 2
+    },
+    {
+        "name": "Philips Sonicare ProtectiveClean 6100",
+        "price": 99,
+        "company": "Tech Innovators",
+        "rating": 5
+    },
+    {
+        "name": "Nintendo Switch Pro Controller",
+        "price": 69,
+        "company": "Apple Inc.",
+        "rating": 4
+    },
+    {
+        "name": "Samsung Odyssey G9 Gaming Monitor",
+        "price": 1699,
+        "company": "Sports Unlimited",
+        "rating": 3.5
+    },
+    {
+        "name": "Sony WH-CH710N Wireless Noise Cancelling Headphones",
+        "price": 198,
+        "company": "Audio Bliss",
+        "rating": 4
+    },
+    {
+        "name": "Apple Mac Mini",
+        "price": 699,
+        "company": "Kitchen Delights",
+        "rating": 5
+    },
+    {
+        "name": "JBL Charge 4 Portable Bluetooth Speaker",
+        "price": 179,
+        "company": "Game Masters",
+        "rating": 3.5
+    },
+    {
+        "name": "Dyson Airwrap Styler",
+        "price": 549,
+        "company": "Audio Apple",
+        "rating": 5
+    },
+    {
+        "name": "Google Pixel 5",
+        "price": 699,
+        "company": "Tech Galaxy",
+        "rating": 4
+    },
+    {
+        "name": "Keurig K-Slim Coffee Maker",
+        "price": 79,
+        "company": "Camera World",
+        "rating": 3.5
+    }
+]
